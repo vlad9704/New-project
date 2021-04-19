@@ -1,22 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7d74a4a-9b49-442a-9d1d-4ec43aef6b67" name="Default Changelist" comment=".idea">
-      <change afterPath="$PROJECT_DIR$/app/images/dest/logo.png" afterDir="false" />
+    <list default="true" id="d7d74a4a-9b49-442a-9d1d-4ec43aef6b67" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/fonts/Roboto_medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/address.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/mouse.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/osteklemie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/osteklenie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/phone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/phone_mobile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/address.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/mouse.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/osteklenie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/phone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/src/phone_mobile.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/app.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dest/preview.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/dest/preview.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/4705 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/WhatsApp Image 2020-02-25 at 20.33 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/src/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/Оформление виз.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/визы по направлению.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/визы.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/визы3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/номер тел.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/пнг 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/страховка.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/_config.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_config.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,31 +48,34 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1pqS0W1SRjvldKalw5VD8W0xruk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/images/src" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
-  <component name="SvnConfiguration">
-    <configuration />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\My project\New-project\app\images\src" />
+    </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d7d74a4a-9b49-442a-9d1d-4ec43aef6b67" name="Default Changelist" comment="" />
@@ -57,27 +84,24 @@
       <option name="presentableId" value="Default" />
       <updated>1615908905201</updated>
       <workItem from="1615908906349" duration="126000" />
-      <workItem from="1618810240429" duration="6284000" />
+      <workItem from="1615995635303" duration="10000" />
+      <workItem from="1615995781841" duration="78000" />
+      <workItem from="1618842745337" duration="1709000" />
+      <workItem from="1618844486970" duration="45000" />
+      <workItem from="1618844594258" duration="8180000" />
     </task>
-    <task id="LOCAL-00001" summary=".idea">
-      <created>1618810646879</created>
+    <task id="LOCAL-00001" summary="init project">
+      <created>1615909935985</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1618810646879</updated>
+      <updated>1615909935985</updated>
     </task>
-    <task id="LOCAL-00002" summary=".idea">
-      <created>1618810672030</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1618810672030</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -89,60 +113,55 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value=".idea" />
-    <option name="LAST_COMMIT_MESSAGE" value=".idea" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="init project" />
+    <option name="LAST_COMMIT_MESSAGE" value="init project" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="661" y="213" key="#File_Watchers" timestamp="1618810911922">
+    <state x="842" y="353" key="#File_Watchers" timestamp="1615909649111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="661" y="213" key="#File_Watchers/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1618810911922" />
     <state x="842" y="353" key="#File_Watchers/0.0.1920.1040@0.0.1920.1040" timestamp="1615909649111" />
-    <state x="740" y="339" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1618810907775">
+    <state x="721" y="192" key="#SCSS" timestamp="1618847058031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="339" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1618810907775" />
-    <state x="248" y="114" width="1523" height="855" key="CommitChangelistDialog2" timestamp="1618833011668">
+    <state x="721" y="192" key="#SCSS/0.0.1920.1040@0.0.1920.1040" timestamp="1618847058031" />
+    <state x="573" y="11" key="CommitChangelistDialog2" timestamp="1615909934570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="248" y="114" width="1523" height="855" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1618833011668" />
-    <state x="625" y="301" width="670" height="666" key="EditFileWatcherDialog" timestamp="1618810911312">
+    <state x="573" y="11" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1615909934570" />
+    <state x="625" y="301" width="670" height="463" key="EditFileWatcherDialog" timestamp="1615909741546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="625" y="301" width="670" height="666" key="EditFileWatcherDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1618810911312" />
     <state x="625" y="301" width="670" height="463" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615909741546" />
-    <state x="740" y="389" key="FileChooserDialogImpl" timestamp="1618810910234">
+    <state x="184" y="85" key="MergeDialog" timestamp="1618842784158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="389" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1618810910234" />
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1618810679666">
+    <state x="184" y="85" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618842784158" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1618843388612">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1618810679666" />
-    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1618810679666">
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1618843388612" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1615909955673">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1618810679666" />
-    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1618810679666">
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1615909955673" />
+    <state x="773" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618842755803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1618810679666" />
-    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1618810679666">
+    <state x="773" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1618842755803" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1618851886631">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1618810679666" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1618813209048">
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1618851886631" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1618846313596">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1618813209048" />
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1615909886489" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1618833019547">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1618833019547" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1618846313596" />
   </component>
 </project>

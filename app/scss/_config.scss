@@ -11,7 +11,7 @@
 $accent:     orange; // Accent Color
 $fontsize:   16px; // Body Font Size
 $textcolor:  #333; // Text Color
-$mainfamily: SFpro, sans-serif; // Main Font Family
+$mainfamily: Roboto, sans-serif; // Main Font Family
 
 // Bootstrap compatible gutter variable => $gutter
 
@@ -30,9 +30,25 @@ $gutter: $grid-gutter-width;
 	}
 }
 
+/* --------------------- Задний фон на весь экран (выходя за враппер) -----*/
+@mixin background_line($color) {
+	position: relative;
+	&:before {
+		content: '';
+		position: absolute;
+		height: 100%;
+		width: auto;
+		left: -100%;
+		right: -100%;
+		top: 0;
+		background-color: $color;
+		z-index: -1;
+	}
+}
 
-@include font('SFpro', normal, 100, '../fonts/SFProDisplay-Semibold.woff');
-@include font('SFpro', italic, 100, '../fonts/SFProDisplay-SemiboldItalic.woff');
+
+@include font('Roboto', normal, 100, '../fonts/Roboto_medium.ttf');
+//@include font('SFpro', italic, 100, '../fonts/SFProDisplay-SemiboldItalic.woff');
 
 
 // GENERAL DOCUMENT STYLES
@@ -59,6 +75,7 @@ body {
 	line-height: 1.65;
 	font-family: $mainfamily !important;
 	overflow-x: hidden;
-	color: $textcolor;
+	color: $textcolor !important;
+	font-size: $fontsize !important;
 	font-weight: normal !important;
 }
