@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7d74a4a-9b49-442a-9d1d-4ec43aef6b67" name="Default Changelist" comment=".idea">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/dest/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/app.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/dest/preview.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/dest/preview.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/src/4705 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/src/WhatsApp Image 2020-02-25 at 20.33 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/src/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/src/preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/src/Оформление виз.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/src/визы по направлению.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/src/визы.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/src/визы3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/src/номер тел.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/src/пнг 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/src/страховка.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,31 +57,88 @@
       <option name="presentableId" value="Default" />
       <updated>1615908905201</updated>
       <workItem from="1615908906349" duration="126000" />
-      <workItem from="1618810240429" duration="378000" />
+      <workItem from="1618810240429" duration="6284000" />
     </task>
+    <task id="LOCAL-00001" summary=".idea">
+      <created>1618810646879</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618810646879</updated>
+    </task>
+    <task id="LOCAL-00002" summary=".idea">
+      <created>1618810672030</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1618810672030</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value=".idea" />
+    <option name="LAST_COMMIT_MESSAGE" value=".idea" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="842" y="353" key="#File_Watchers" timestamp="1615909649111">
+    <state x="661" y="213" key="#File_Watchers" timestamp="1618810911922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="661" y="213" key="#File_Watchers/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1618810911922" />
     <state x="842" y="353" key="#File_Watchers/0.0.1920.1040@0.0.1920.1040" timestamp="1615909649111" />
-    <state x="248" y="114" width="1523" height="855" key="CommitChangelistDialog2" timestamp="1618810660382">
+    <state x="740" y="339" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1618810907775">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="248" y="114" width="1523" height="855" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1618810660382" />
-    <state x="625" y="301" width="670" height="666" key="EditFileWatcherDialog" timestamp="1618810276134">
+    <state x="740" y="339" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1618810907775" />
+    <state x="248" y="114" width="1523" height="855" key="CommitChangelistDialog2" timestamp="1618816378270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="625" y="301" width="670" height="666" key="EditFileWatcherDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1618810276134" />
+    <state x="248" y="114" width="1523" height="855" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1618816378270" />
+    <state x="625" y="301" width="670" height="666" key="EditFileWatcherDialog" timestamp="1618810911312">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="625" y="301" width="670" height="666" key="EditFileWatcherDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1618810911312" />
     <state x="625" y="301" width="670" height="463" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615909741546" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1618810281164">
+    <state x="740" y="389" key="FileChooserDialogImpl" timestamp="1618810910234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1618810281164" />
+    <state x="740" y="389" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1618810910234" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1618810679666">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1618810679666" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1618810679666">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1618810679666" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1618810679666">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1618810679666" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1618810679666">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1618810679666" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1618813209048">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1618813209048" />
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1615909886489" />
   </component>
 </project>
