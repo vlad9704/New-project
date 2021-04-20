@@ -23,7 +23,7 @@
 			<div class="top_bar">
 				<div class="row align-items-center justify-content-between">
 					<div class="col-md-3">
-						<div class="logo"><a href=""><img src="images/src/logo.png" alt=""></a></div>
+						<div class="logo"><a href=""><img src="images/dest/logo.png" alt=""></a></div>
 					</div>
 					<div class="col-md-3">
 						<div class="header_location"><span>Ул. Н. Островского, д. 115 к. 1</span></div>
@@ -34,8 +34,8 @@
 					</div>
 					<div class="col-md-2">
 						<div class="header_social d-flex">
-							<a href="facebook.com"><img src="images/src/facebook.svg" alt="facebook" title="facebook"></a>
-							<a href="instagram.com"><img src="images/src/instagram.svg" alt="instagram" title="instagram"></a>
+							<a href="facebook.com"><img src="images/dest/facebook.svg" alt="facebook" title="facebook"></a>
+							<a href="instagram.com"><img src="images/dest/instagram.svg" alt="instagram" title="instagram"></a>
 						</div>
 					</div>
 				</div>
@@ -44,11 +44,53 @@
 				<div class="col-md-12 justify-content-center">
 					<div class="main_menu">
 						<ul class="nav justify-content-around">
-							<li class="nav-item"><a href="#" class="nav-link">Главная</a></li>
-							<li class="nav-item"><a href="" class="nav-link">Партнеры</a></li>
-							<li class="nav-item"><a href="" class="nav-link">Отстекление</a></li>
-							<li class="nav-item"><a href="" class="nav-link">ПВХ</a></li>
-							<li class="nav-item"><a href="" class="nav-link">Алюминевые окна</a></li>
+							<li class="nav-item">
+								<div class="dropdown open">
+									<a href="javascript:void(0)" class="btn dropdown-toggle" type="button" id="dropdownMenuButton_main" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Главная
+									</a>
+									<div class="dropdown-menu" aria-labelledby="dropdownMenuButton_main">
+										<a class="dropdown-item" href="#">О компании</a>
+										<a class="dropdown-item" href="#">Миссия и ценности</a>
+										<a class="dropdown-item" href="#">Реализованные проекты</a>
+										<a class="dropdown-item" href="#">Карьера</a>
+										<a class="dropdown-item" href="#">Контакты</a>
+									</div>
+								</div>
+							</li>
+							<li class="nav-item"><a href="#" class="nav-link">Партнеры</a></li>
+							<li class="nav-item">
+								<div class="dropdown open">
+									<a href="javascript:void(0)" class="btn dropdown-toggle" type="button" id="dropdownMenuButton_osteklenie" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Отстекление
+									</a>
+									<div class="dropdown-menu" aria-labelledby="dropdownMenuButton_osteklenie">
+										<a class="dropdown-item" href="#">Толщина стекла</a>
+										<a class="dropdown-item" href="#">Разновидности стекла</a>
+									</div>
+								</div>
+							</li>
+							<li class="nav-item">
+								<div class="dropdown open">
+									<a href="javascript:void(0)" class="btn dropdown-toggle" type="button" id="dropdownMenuButton_pvh" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										ПВХ
+									</a>
+									<div class="dropdown-menu" aria-labelledby="dropdownMenuButton_pvh">
+										<a class="dropdown-item" href="#">Виды профиля</a>
+										<a class="dropdown-item" href="#">Ламинированный профиль</a>
+									</div>
+								</div>
+							</li>
+							<li class="nav-item">
+								<div class="dropdown open">
+									<a href="javascript:void(0)" class="btn dropdown-toggle" type="button" id="dropdownMenuButton_window" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Алюминевые окна
+									</a>
+									<div class="dropdown-menu" aria-labelledby="dropdownMenuButton_window">
+										<a class="dropdown-item" href="#">Виды</a>
+									</div>
+								</div>
+							</li>
 							<li class="nav-item"><a href="" class="nav-link">Новости</a></li>
 						</ul>
 					</div>
@@ -65,15 +107,69 @@
 						<h1>Остекление</h1>
 						<h2>Балконов, лоджий, квартир, домов и коттеджей</h2>
 					</div>
-					<a class="more_info" href="#">Узнать стоимость</a>
-					<div class="img_mouse">
-						<img src="images/src/mouse.svg" alt="mouse" title="mouse">
+					<div class="more_info_cont">
+						<a class="more_info" href="#">Узнать стоимость</a>
+						<div class="img_mouse">
+							<img src="images/dest/mouse.svg" alt="mouse" title="mouse">
+						</div>
 					</div>
 				</div>
 			</div>
 			<div class="col-xl-7 col-md-8 col-sm-12">
 				<div class="img_osteklenie">
-					<img src="images/src/osteklenie.jpg" alt="image" title="image">
+					<img src="images/dest/osteklenie.jpg" alt="image" title="image">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="calculation">
+		<div class="row no-gutters">
+			<div class="col-xl-5">
+				<div class="img_calculation">
+					<img src="images/dest/calculation_block.png" alt="image" title="image">
+				</div>
+			</div>
+			<div class="col-xl-7">
+				<div class="calculation_block">
+					<div class="calculation_title">
+						Рассчитать стоимость
+					</div>
+					<div class="calculation_fields">
+						<div class="calculation_item">
+							<span>Ширина</span>
+							<input class="width_size" type="text">
+						</div>
+						<div class="calculation_item">
+							<span>Высота</span>
+							<input class="height_size" type="text">
+						</div>
+						<div class="calculation_item">
+							<label>
+								<input type="radio">
+								<span>Одностворчатое</span>
+							</label>
+						</div>
+						<div class="calculation_item">
+							<label>
+								<input type="radio">
+								<span>Двухстворчатое ( три секции )</span>
+							</label>
+						</div>
+						<div class="calculation_item">
+							<label>
+								<input type="radio">
+								<span>Простое открывание</span>
+							</label>
+						</div>
+						<div class="calculation_item">
+							<label>
+								<input type="radio">
+								<span>Сложное открывание</span>
+							</label>
+						</div>
+					</div>
+					<div class="total">Итого: <span class="jq_total"></span></div>
 				</div>
 			</div>
 		</div>
@@ -121,6 +217,8 @@
 
 
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<script src="js/jquery.maskedinput.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
