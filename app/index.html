@@ -137,39 +137,42 @@
 					</div>
 					<div class="calculation_fields">
 						<div class="calculation_item">
-							<span>Ширина</span>
-							<input class="width_size" type="text">
+							<p>Ширина:</p>
+							<input placeholder="ширина/см/м" class="width_size" type="text">
 						</div>
 						<div class="calculation_item">
-							<span>Высота</span>
-							<input class="height_size" type="text">
+							<p>Высота:</p>
+							<input placeholder="высота/см/м" class="height_size" type="text">
 						</div>
 						<div class="calculation_item">
-							<label>
+							<div class="j_type_window i_type_window">
 								<input type="radio">
 								<span>Одностворчатое</span>
-							</label>
+							</div>
 						</div>
 						<div class="calculation_item">
-							<label>
+							<div class="j_type_window i_type_window">
 								<input type="radio">
 								<span>Двухстворчатое ( три секции )</span>
-							</label>
+							</div>
 						</div>
 						<div class="calculation_item">
-							<label>
+							<div class="j_type_window i_type_window">
 								<input type="radio">
 								<span>Простое открывание</span>
-							</label>
+							</div>
 						</div>
 						<div class="calculation_item">
-							<label>
+							<div class="j_type_window i_type_window">
 								<input type="radio">
 								<span>Сложное открывание</span>
-							</label>
+							</div>
 						</div>
 					</div>
-					<div class="total">Итого: <span class="jq_total"></span></div>
+					<div class="order_block">
+						<div class="total">Итого: <span class="jq_total"></span></div>
+						<a class="to_order" href="javascript:void(0)">Заказать</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -213,16 +216,18 @@
 		</div>
 	</div>
 
+
 	<div class="scroll"><img src="images/dest/scroll.png" alt="scroll"></div>
 
 
-	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="js/plugins/jquery.js"></script>
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	<script src="js/jquery.maskedinput.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
+	<script src="js/jquery.maskedinput.js"></script>
 	<script src="js/app.min.js"></script>
 
 </body>

@@ -79,6 +79,15 @@ document.addEventListener("DOMContentLoaded", function() {
 		// $('.mobile-menu ul').hide(500);
 		// $('.burger').children().attr('src', 'img/burger.png');
 		// $('.mobile').slideUp(500);
-	}); 
+	});
+
+	$('body').on('click', '.j_type_window', function () {
+
+		let th = $(this)
+
+		th.parent().siblings().children().removeClass('active')
+		th.toggleClass('active')
+
+	})
 
 });
