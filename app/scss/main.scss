@@ -39,6 +39,7 @@ img {
 	background: none;
 	border: none;
 	padding: 0;
+	width: 30px;
 
 	&:focus {
 		outline: none;
@@ -46,15 +47,19 @@ img {
 }
 
 .slick-prev {
-	left: 0;
+	left: -40px;
 }
 
 .slick-next {
-	right: 0;
+	right: -40px;
 }
 
 .item img {
 	margin: 0 auto;
+}
+
+.slick-slide {
+	margin: 0 10px;
 }
 
 .slick-dots {
@@ -302,7 +307,7 @@ header {
 	}
 	.header_location {
 		padding-left: 25px;
-		background: url(../images/src/address.svg) no-repeat 0 10px / 15px auto;
+		background: url(../images/dest/address.svg) no-repeat 0 10px / 15px auto;
 		max-width: 180px;
 	}
 
@@ -312,12 +317,12 @@ header {
 
 	.phone_one {
 		padding-left: 25px;
-		background: url(../images/src/phone.svg) no-repeat 0 1px / 13px auto;
+		background: url(../images/dest/phone.svg) no-repeat 0 1px / 13px auto;
 	}
 
 	.phone_two {
 		padding-left: 25px;
-		background: url(../images/src/phone_mobile.svg) no-repeat 0 4px / 13px auto;
+		background: url(../images/dest/phone_mobile.svg) no-repeat 0 4px / 13px auto;
 	}
 
 	.top_bar {
@@ -488,7 +493,7 @@ section#calculation {
 		}
 	}
 	.calculation_title {
-		font-size: 35px;
+		font-size: 30px;
 		text-transform: uppercase;
 		text-align: center;
 		position: relative;
@@ -496,7 +501,7 @@ section#calculation {
 		&:after {
 			content: '';
 			position: absolute;
-			width: 60%;
+			width: 50%;
 			height: 3px;
 			background-color: #d41014;
 			bottom: 0;
@@ -513,7 +518,6 @@ section#calculation {
 		background-color: #d41014;
 		padding: 20px 0;
 		box-shadow: 0 0 4px 2px #d87c7c;
-		margin: 20px 0;
 		transition: all 0.3s ease;
 		width: 260px;
 		display: flex;
@@ -529,6 +533,36 @@ section#calculation {
 		margin: 40px 0;
 		font-size: 25px;
 	}
+}
+
+.section_title {
+	display: inline-block;
+	margin: 0 auto 40px;
+	position: relative;
+	padding-bottom: 10px;
+	font-size: 30px;
+	text-transform: uppercase;
+	&:before {
+		content: '';
+		position: absolute;
+		width: 70%;
+		height: 3px;
+		background-color: #d41014;
+		bottom: 0;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+}
+
+section#gallery {
+	padding: 50px 0;
+}
+
+section#about_us {
+	padding-bottom: 50px;
+	background-image: url(../images/dest/about_us.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 @media screen and (max-width: 1199px) {

@@ -21,6 +21,7 @@ const del            = require('del');
 
 function browsersync() {
 	browserSync.init({
+		browser: "chrome",
 		server: { baseDir: 'app' },
 		notify: false,
 		// online: false, // Work offline without internet connection

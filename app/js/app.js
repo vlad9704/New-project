@@ -3,31 +3,45 @@ document.addEventListener("DOMContentLoaded", function() {
 	$(function($){
 		$('[name="mfbPhone"]').mask("+7-(999)-999-99-99");
 	});
+
+	//инициализируем галерею ДО запуска слайдера
+	var gallery = $('.slide');
+	//при клике на ссылку в слайде запускаем галерею
+	$('.slide').on('click', function(e) {
+		e.preventDefault();
+		//узнаём индекс слайда без учёта клонов
+		var totalSlides = +$(this).parents('.slider').slick("getSlick").slideCount,
+			dataIndex = +$(this).parents('.slide').data('slick-index'),
+			trueIndex;
+		switch(true){
+			case (dataIndex<0):
+				trueIndex = totalSlides+dataIndex; break;
+			case (dataIndex>=totalSlides):
+				trueIndex = dataIndex%totalSlides; break;
+			default:
+				trueIndex = dataIndex;
+		}
+		//вызывается элемент галереи, соответствующий индексу слайда
+		$.fancybox.open(gallery,{}, trueIndex);
+		return false;
+	});
 	
-	$('.result_slider').slick({
-		centerMode: true,
-		variableWidth: true,
-		slidesToShow: 1,
-		dots: true,
-		slidesToScroll: 1,
+	$('#gallery_slider').slick({
+		slidesToShow: 3,
 		responsive: [
 			{
 			breakpoint: 1400,
 	    		settings: {
-	    			arrows: false
 	    		}
 	    	},
 	    	{
 			breakpoint: 700,
 	    		settings: {
-					centerMode: false,
-					arrows: false,
-					variableWidth: false
 	    		}
 	    	}
 		],   
-		prevArrow: '<button type="button" class="slick-prev"><img src="images/dest/arrow-left.png"></button>',
-  		nextArrow: '<button style="transform: rotate(180deg)" type="button" class="slick-next"><img src="images/dest/arrow-left.png"></button>'
+		prevArrow: '<button style="transform: rotate(180deg)" type="button" class="slick-prev"><img src="images/dest/arrow-left.svg"></button>',
+  		nextArrow: '<button type="button" class="slick-next"><img src="images/dest/arrow-left.svg"></button>'
 	});
 
 	//SCROLL
