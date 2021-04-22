@@ -565,6 +565,100 @@ section#about_us {
 	background-size: cover;
 }
 
+section#call_personal {
+	.call_personal_container {
+		background-color: #aac1eb;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 50px 0;
+	}
+	.call_personal_block {
+		max-width: 670px;
+		margin-left: auto;
+		padding-right: 10%;
+	}
+	.title {
+		font-size: 34px;
+		text-transform: uppercase;
+	}
+	.description {
+		font-size: 19px;
+		span {
+			color: #d41014;
+			text-transform: uppercase;
+		}
+	}
+	.request_personal_block {
+		margin: 30px 0;
+		input {
+			width: 300px;
+			margin-top: 10px;
+			padding: 15px;
+			border: 0;
+			color: #333;
+		}
+		input[type="submit"] {
+			background-color: #d41014;
+			color: #fff;
+			box-shadow: 0 0 4px 2px #d87c7c;
+			transition: all 0.3s ease;
+			&:hover {
+				transform: scale(1.1);
+			}
+		}
+	}
+	.personal_img {
+		background: url(../images/dest/bg_personal.jpg) no-repeat center / cover;
+		padding-top: 50px;
+		img {
+			max-width: 400px;
+			margin-left: -30px;
+		}
+	}
+}
+
+footer {
+	.title {
+		font-size: 35px;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	.contact_block {
+		max-width: 350px;
+		padding-right: 50px;
+		margin-left: auto;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.contact_items {
+		a {
+			color: #333333 !important;
+		}
+	}
+	.contact_item {
+		display: flex;
+		flex-direction: column;
+		margin-top: 20px;
+		padding-left: 35px;
+	}
+	.contact_item:nth-child(1) {
+		background: url(../images/dest/address.svg) no-repeat 0 5px / 25px auto;
+	}
+	.contact_item:nth-child(2) {
+		background: url(../images/dest/clock_red.svg) no-repeat 0 5px / 30px auto;
+	}
+	.contact_item:nth-child(3) {
+		background: url(../images/dest/mail_red.svg) no-repeat 3px 5px / 22px auto;
+	}
+	.contact_item:nth-child(4) {
+		background: url(../images/dest/phone_mobile_red.svg) no-repeat 3px 5px / 21px auto;
+	}
+}
+
 @media screen and (max-width: 1199px) {
 	section#osteklenie .info_block {
 		padding-left: 20px;
