@@ -21,6 +21,11 @@ a {
 	}
 }
 
+ul {
+	list-style: none;
+	margin: 0;
+}
+
 img {
 	max-width: 100%;
 }
@@ -322,7 +327,7 @@ header {
 
 	.phone_two {
 		padding-left: 25px;
-		background: url(../images/dest/phone_mobile.svg) no-repeat 0 4px / 13px auto;
+		background: url(../images/dest/phone_mobile_red.svg) no-repeat 0 4px / 13px auto;
 	}
 
 	.top_bar {
@@ -562,17 +567,18 @@ section#about_us {
 	padding-bottom: 50px;
 	background-image: url(../images/dest/about_us.png);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100% 350px;
 }
 
 section#call_personal {
+	padding: 50px 0 0;
+	background: url(../images/dest/personal_bg.png) no-repeat center;
+	background-size: cover;
 	.call_personal_container {
-		background-color: #aac1eb;
 		height: 100%;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		padding: 50px 0;
 	}
 	.call_personal_block {
 		max-width: 670px;
@@ -592,29 +598,27 @@ section#call_personal {
 	}
 	.request_personal_block {
 		margin: 30px 0;
-		input {
-			width: 300px;
-			margin-top: 10px;
-			padding: 15px;
-			border: 0;
-			color: #333;
-		}
-		input[type="submit"] {
+		a {
 			background-color: #d41014;
-			color: #fff;
+			padding: 20px 0;
+			width: 260px;
 			box-shadow: 0 0 4px 2px #d87c7c;
+			margin: 20px 0;
 			transition: all 0.3s ease;
+			display: flex;
+			align-items: center;
+			justify-content: center;
 			&:hover {
 				transform: scale(1.1);
+				color: #fff !important;
+
 			}
 		}
 	}
 	.personal_img {
-		background: url(../images/dest/bg_personal.jpg) no-repeat center / cover;
 		padding-top: 50px;
 		img {
 			max-width: 400px;
-			margin-left: -30px;
 		}
 	}
 }
@@ -656,6 +660,74 @@ footer {
 	}
 	.contact_item:nth-child(4) {
 		background: url(../images/dest/phone_mobile_red.svg) no-repeat 3px 5px / 21px auto;
+	}
+	.f_bottom_menu_block {
+		background-color: #202020;
+		position: relative;
+		padding: 40px 0;
+		color: #fff;
+		&:before {
+			content: '';
+			position: absolute;
+			height: 100%;
+			width: auto;
+			left: -100%;
+			right: -100%;
+			top: 0;
+			background-color: #202020;
+			z-index: -1;
+		}
+		a {
+			color: #fff !important;
+			&:hover {
+				color: #fff !important;
+			}
+		}
+	}
+	.f_bottom_menu_cont a {
+		display: block;
+	}
+	.f_bottom_menu_cont {
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			li {
+				font-size: 15px;
+				text-transform: uppercase;
+			}
+		}
+	}
+	.f_bottom_contact_block {
+		border-top: 2px solid #434343;
+		padding-top: 40px;
+		margin-top: 40px;
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			li {
+				&:not(:last-child) {
+					margin-right: 20px;
+				}
+			}
+		}
+		.mail {
+			padding-left: 35px;
+			background: url(../images/dest/mail.svg) no-repeat 3px 5px / 22px auto;
+		}
+		.numbers {
+			display: flex;
+			flex-direction: column;
+			padding-left: 35px;
+			background: url(../images/dest/phone_mobile.svg) no-repeat 3px 5px/21px auto;
+		}
+		.f_bottom_social a {
+			width: 30px;
+		}
+		.f_bottom_social a:not(:last-child) {
+			margin-right: 10px;
+		}
 	}
 }
 
