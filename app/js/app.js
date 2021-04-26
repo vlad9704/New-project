@@ -30,13 +30,15 @@ document.addEventListener("DOMContentLoaded", function() {
 		slidesToShow: 3,
 		responsive: [
 			{
-			breakpoint: 1400,
+			breakpoint: 1000,
 	    		settings: {
+					slidesToShow: 2,
 	    		}
 	    	},
 	    	{
 			breakpoint: 700,
 	    		settings: {
+					slidesToShow: 1,
 	    		}
 	    	}
 		],   
@@ -69,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		})
 	})
 
-	$('.mobilemenu-block a').click(function() {
+	$('.mobilemenu-block a:not(.dropdown-toggle)').click(function() {
 		$(this).parents('.mobilemenu-block').removeClass('show');
 		$('#burger-box').removeClass('center');
 		$('.burger').toggleClass('closed');

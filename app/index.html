@@ -22,17 +22,17 @@
 		<div class="container">
 			<div class="top_bar">
 				<div class="row align-items-center justify-content-between">
-					<div class="col-md-3">
+					<div class="col-xl-3 col-lg-3 col-sm-6 col-5">
 						<div class="logo"><a href=""><img src="images/dest/logo.png" alt=""></a></div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-lg-3 col-sm-6 col-7">
 						<div class="header_location"><span>Ул. Н. Островского, д. 115 к. 1</span></div>
 					</div>
-					<div class="col-md-2 d-flex flex-column">
+					<div class="col-xl-2 col-lg-3 col-sm-6 col-7 d-flex flex-column">
 						<a class="phone_one" href="tel:+77077777077">+7(707) 777 70 77</a>
 						<a class="phone_two" href="tel:+77077777077">+7(707) 777 70 77</a>
 					</div>
-					<div class="col-md-2">
+					<div class="col-lg-2 col-sm-6 col-5">
 						<div class="header_social d-flex">
 							<a href="facebook.com"><img src="images/dest/facebook.svg" alt="facebook" title="facebook"></a>
 							<a href="instagram.com"><img src="images/dest/instagram.svg" alt="instagram" title="instagram"></a>
@@ -101,7 +101,7 @@
 
 	<section id="osteklenie">
 		<div class="row align-items-xl-end no-gutters justify-content-end">
-			<div class="col-xl-5 col-md-4 col-sm-12">
+			<div class="col-md-5 col-sm-6">
 				<div class="info_block">
 					<div class="title">
 						<h1>Остекление</h1>
@@ -115,7 +115,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xl-7 col-md-8 col-sm-12">
+			<div class="col-md-7 col-sm-6">
 				<div class="img_osteklenie">
 					<img src="images/dest/osteklenie.jpg" alt="image" title="image">
 				</div>
@@ -124,13 +124,13 @@
 	</section>
 
 	<section id="calculation">
-		<div class="row no-gutters">
-			<div class="col-xl-5">
+		<div class="row no-gutters ">
+			<div class="col-xl-5 col-md-12">
 				<div class="img_calculation">
 					<img src="images/dest/calculation_block.png" alt="image" title="image">
 				</div>
 			</div>
-			<div class="col-xl-7">
+			<div class="col-xl-7 col-md-12">
 				<div class="calculation_block">
 					<div class="calculation_title">
 						Рассчитать стоимость
@@ -328,9 +328,6 @@
 						<div class="d-flex"><button type="submit">Отправить</button></div>
 					</form>
 				</div>
-				<div class="col-md-6">
-					<div class="img" style="max-height: 450px"><img src="img/model-2.png" alt=""></div>
-				</div>
 			</div>
 		</div>
 	</div>
@@ -340,13 +337,55 @@
 			<div class="burger"></div>
 		</div>
 		<div class="mobile-menu">
-			<ul>
-				<li class="nav-item"><a href="#one" class="nav-link">Производство</a></li>
-				<li class="nav-item"><a href="#two" class="nav-link">О нас</a></li>
-				<li class="nav-item"><a href="#three" class="nav-link">Почему мы?</a></li>
-				<li class="nav-item"><a href="#four" class="nav-link">Галерея</a></li>
-				<li class="nav-item"><a href="#five" class="nav-link">Отзывы</a></li>
-				<li class="nav-item"><a href="#six" class="nav-link">Контакты</a></li>
+			<ul class="nav justify-content-around">
+				<li class="nav-item">
+					<div class="dropdown open">
+						<a href="javascript:void(0)" class="btn dropdown-toggle" type="button" id="dropdownMenuButton_main" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Главная
+						</a>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton_main">
+							<a class="dropdown-item" href="#">О компании</a>
+							<a class="dropdown-item" href="#">Миссия и ценности</a>
+							<a class="dropdown-item" href="#">Реализованные проекты</a>
+							<a class="dropdown-item" href="#">Карьера</a>
+							<a class="dropdown-item" href="#">Контакты</a>
+						</div>
+					</div>
+				</li>
+				<li class="nav-item"><a href="#" class="nav-link">Партнеры</a></li>
+				<li class="nav-item">
+					<div class="dropdown open">
+						<a href="javascript:void(0)" class="btn dropdown-toggle" type="button" id="dropdownMenuButton_osteklenie" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Отстекление
+						</a>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton_osteklenie">
+							<a class="dropdown-item" href="#">Толщина стекла</a>
+							<a class="dropdown-item" href="#">Разновидности стекла</a>
+						</div>
+					</div>
+				</li>
+				<li class="nav-item">
+					<div class="dropdown open">
+						<a href="javascript:void(0)" class="btn dropdown-toggle" type="button" id="dropdownMenuButton_pvh" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							ПВХ
+						</a>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton_pvh">
+							<a class="dropdown-item" href="#">Виды профиля</a>
+							<a class="dropdown-item" href="#">Ламинированный профиль</a>
+						</div>
+					</div>
+				</li>
+				<li class="nav-item">
+					<div class="dropdown open">
+						<a href="javascript:void(0)" class="btn dropdown-toggle" type="button" id="dropdownMenuButton_window" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Алюминевые окна
+						</a>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton_window">
+							<a class="dropdown-item" href="#">Виды</a>
+						</div>
+					</div>
+				</li>
+				<li class="nav-item"><a href="" class="nav-link">Новости</a></li>
 			</ul>
 		</div>
 	</div>
