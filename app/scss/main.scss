@@ -129,8 +129,9 @@ img {
 	overflow: hidden;
 	background-image: url(../images/dest/personal.png);
 	background-repeat: no-repeat;
-	background-size: 260px auto;
+	background-size: 220px auto;
 	background-position: 80% bottom;
+	width: 90%;
 }
 
 #modal .img-box {
@@ -668,7 +669,7 @@ footer {
 	.f_bottom_menu_block {
 		background-color: #202020;
 		position: relative;
-		padding: 40px 0;
+		padding: 30px 0 40px;
 		color: #fff;
 		&:before {
 			content: '';
@@ -699,6 +700,7 @@ footer {
 			li {
 				font-size: 15px;
 				text-transform: uppercase;
+				margin-top: 10px;
 			}
 		}
 	}
@@ -752,11 +754,27 @@ footer {
 }
 
 @media screen and (max-width: 991px) {
+	footer .f_bottom_contact_block ul li:nth-child(3) {
+		order: 4;
+	}
+	footer .f_bottom_contact_block {
+		padding-top: 20px;
+	}
+	footer .f_bottom_contact_block ul li:not(:last-child) {
+		margin: 0;
+	}
+	footer .f_bottom_contact_block ul li {
+		width: calc(50% - 20px);
+		margin-top: 20px !important;
+	}
 	section#about_us {
 		background-size: 100% auto;
 	}
 	section#osteklenie .title h1,
-	section#calculation .calculation_title {
+	section#calculation .calculation_title,
+	.section_title,
+	section#call_personal .title,
+	footer .title {
 		font-size: 22px;
 	}
 	section#osteklenie .title h2,
@@ -796,6 +814,44 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
+	footer {
+		padding-top: 30px;
+		.contact_items {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			margin-top: 20px;
+		}
+	}
+	footer .contact_item {
+		width: auto;
+		min-width: 250px;
+	}
+	footer .contact_block {
+		padding: 0 20px 30px;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	footer .title {
+		text-align: center;
+	}
+	section#call_personal .request_personal_block a {
+		margin: 20px auto;
+	}
+	section#call_personal .call_personal_block {
+		padding-right: 0;
+		margin-right: auto;
+		text-align: center;
+	}
+	section#call_personal .call_personal_block br {
+		display: none;
+	}
+	section#call_personal .personal_img {
+		text-align: center;
+	}
+	section#call_personal .personal_img img {
+		max-width: 300px;
+	}
 	section#osteklenie .info_block {
 		padding-right: 20px;
 	}
@@ -817,12 +873,18 @@ footer {
 }
 
 @media screen and (max-width: 575px) {
+	footer .f_bottom_contact_block ul li {
+		width: 100%;
+	}
 	section#osteklenie .img_mouse {
 		display: block;
 	}
 	section#osteklenie .info_block {
 		margin: 20px auto 0;
 		text-align: center;
+	}
+	footer .f_bottom_contact_block ul li:nth-child(3) {
+		order: unset;
 	}
 }
 

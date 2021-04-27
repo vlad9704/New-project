@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 		let th = $(this)
 
-		th.parent().siblings().children().removeClass('active')
+		//th.parent().siblings().children().removeClass('active')
 		th.toggleClass('active')
 
 	})
