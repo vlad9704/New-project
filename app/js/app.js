@@ -106,4 +106,26 @@ document.addEventListener("DOMContentLoaded", function() {
 
 	})
 
+	//CALCULATION
+	$('body').on('click', '.j_count_btn', function () {
+
+		let width      = $('.j_width_size').val()
+		let height     = $('.j_height_size').val() ? $('.j_height_size').val() : 0;
+		let total	   = $('.jq_total')
+		let res 	   = null
+		let count_type = null
+
+		if ( $('.j_type_window.active').length )
+		{
+			$('.j_type_window.active').each(function () {
+				count_type += Math.floor($(this).attr('data-price'))
+			})
+			res = (Math.floor(width) + Math.floor(height)) * count_type
+			total.html(res)
+		}
+		else
+			alert('Выберите тип окна')
+
+	})
+
 });

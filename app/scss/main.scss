@@ -124,6 +124,10 @@ img {
 	transition: all 0.5s linear;
 }
 
+.compensate-for-scrollbar {
+	margin-right: 0 !important;
+}
+
 #modal {
 	display: none;
 	overflow: hidden;
@@ -469,7 +473,8 @@ section#calculation {
 	.calculation_item {
 		width: calc(50% - 20px);
 		margin-top: 40px;
-		input[type="text"] {
+		input.height_size,
+		input.width_size {
 			padding: 20px 10px;
 			border-radius: 10px;
 			border-color: #0a3c94;
